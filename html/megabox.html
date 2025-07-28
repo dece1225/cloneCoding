@@ -10,28 +10,24 @@
 
 <body>
   <header>
-    <div class="header_home">홈버튼</div>
     <nav class="topmenu_container">
-      <div class="topmenu_left">
-        <ul class="topmenu-ul1">
-          <li class="topmenu-li"><a href="#">VIP LOUNGE</a></li>
-          <li class="topmenu-li"><a href="#">멤버십</a></li>
-          <li class="topmenu-li"><a href="#">고객센터</a></li>
+      <div class="topmenu">
+        <ul>
+          <li class="topmenu_left"><a href="#">VIP LOUNGE</a></li>
+          <li class="topmenu_left"><a href="#">멤버십</a></li>
+          <li class="topmenu_left"><a href="#">고객센터</a></li>
+          <li class="topmenu_right"><a href="#">로그인</a></li>
+          <li class="topmenu_right"><a href="#">회원가입</a></li>
+          <li class="topmenu_right"><a href="#">빠른예매</a></li>
         </ul>
-      </div>
-      <div class="topmenu_right">
-        <ul class="topmenu-ul2">
-          <li class="topmenu-li"><a href="#">로그인</a></li>
-          <li class="topmenu-li"><a href="#">회원가입</a></li>
-          <li class="topmenu-li"><a href="#">빠른예매</a></li>
-        </ul>
+        <div class="header_home"><a href="#"><img src="./../img/megabox_logo.png" alt="홈로고"></a></div>
       </div>
     </nav>
     <nav class="mainmenu_container">
       <ul class="mainmenu-ul">
         <li class="mainmenu-li">
           <div class="mainmenu_sitemap">
-            <a href="#">사이트맵</a>
+            <a href="#"><img src="./../img/menuicon.png" alt="menuicon"></a>
           </div>
           <div class="dropdown_sitemap_content">SITEMAP
             <div class="sitemap">영화
@@ -123,7 +119,7 @@
         </li>
         <li class="mainmenu_search">
           <div class="dropdown_search_menu">
-            <a href="#">검색</a>
+            <a href="#"><img src="./../img/searchicon.png" alt="searchicon"></a>
           </div>
           <div class="dropdown_search_content">
             <div class="search">예매율 순
@@ -154,13 +150,70 @@
                 </ol>
               </div>
             </div>
+            <div class="search_input">
+              <input type="text" placeholder="영화를 검색하세요">
+            </div>
           </div>
-          <div class="search_input">
-            <input type="text" placeholder="영화를 검색하세요">
+        </li>
+        <li class="mainmenu_left">
+          <div>
+            <a href="#">영화</a>
+          </div>
+          <div class="mainmenu1_dropdown">
+            <a href="#">전체영화</a>
+          </div>
+        </li>
+        <li class="mainmenu_left">
+          <div>
+            <a href="#">예매</a>
+          </div>
+          <div class="mainmenu2_dropdown">
+            <a href="#">빠른예매</a>
+            <a href="#">상영시간표</a>
+            <a href="#">더 부티크 프라이빗 예매</a>
+          </div>
+        </li>
+        <li class="mainmenu_left">
+          <div>
+            <a href="#">극장</a>
+          </div>
+          <div class="mainmenu3_dropdown">
+            <a href="#">전체극장</a>
+            <a href="#">특별관</a>
+          </div>
+        </li>
+        <li class="mainmenu_right">
+          <div>
+            <a href="#">이벤트</a>
+          </div>
+          <div class="mainmenu4_dropdown">
+            <a href="#">진행중 이벤트</a>
+            <a href="#">지난 이벤트</a>
+            <a href="#">당첨자발표</a>
+          </div>
+        </li>
+        <li class="mainmenu_right">
+          <div>
+            <a href="#">스토어</a>
+          </div>
+        </li>
+        <li class="mainmenu_right">
+          <div>
+            <a href="#">혜택</a>
+          </div>
+          <div class="mainmenu6_dropdown">
+            <a href="#">메가박스 멤버십</a>
+            <a href="#">제휴/할인</a>
+          </div>
+        </li>
+        <li class="mainmenu_schedule">
+          <div>
+            <a href="#"><img src="./../img/scheduleicon.png" alt="scheduleicon"></a>
           </div>
         </li>
         <li class="mainmenu_mymenu">
           <div class="mymenu_dropdown_container">
+            <a href="#"><img src="./../img/mymegaicon.png" alt="mymegaicon"></a>
             <ul class="mymenu_dropdown-ul">
               <li class="mymenu_dropdown-li">
                 <div class="mymenu_info">***님</div>
@@ -173,6 +226,7 @@
             </ul>
           </div>
         </li>
+
     </nav>
   </header>
   <main>
@@ -221,7 +275,10 @@
         </ul>
       </article>
       <article class="filmsociety">
-        <div class="filmsociety_title"><h4>#필름소사이어티</h4><br><h2>이사</h2></div>
+        <div class="filmsociety_title">
+          <h4>#필름소사이어티</h4><br>
+          <h2>이사</h2>
+        </div>
         <div class="filmsociety_text"></div>
       </article>
       <article class="curation_img"><img src="#" alt="영화포스터"><br>영화1</article>
@@ -265,9 +322,9 @@
       <div class="theater_search">극장찾기</div>
       <div class="loge_img"><img src="#" alt="로고"></div>
       <div class="coperation_info">
-서울특별시 강남구 테헤란로 87길 22 도심공항터미널 건물 408호 ARS 1544-0070 대표이메일 m.dreamcenter@partner.megabox.co.kr <br>
-대표자명 홍정인, 남용석 · 개인정보보호책임자 김수현 · 사업자등록번호 211-86-59478 · 통신판매업신고번호 2025-서울강남-00722<br>
-COPYRIGHT © MegaboxJoongAng, Inc. All rights reserved</div>
+        서울특별시 강남구 테헤란로 87길 22 도심공항터미널 건물 408호 ARS 1544-0070 대표이메일 m.dreamcenter@partner.megabox.co.kr <br>
+        대표자명 홍정인, 남용석 · 개인정보보호책임자 김수현 · 사업자등록번호 211-86-59478 · 통신판매업신고번호 2025-서울강남-00722<br>
+        COPYRIGHT © MegaboxJoongAng, Inc. All rights reserved</div>
     </div>
   </footer>
 </body>
