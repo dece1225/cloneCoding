@@ -3,11 +3,11 @@
   padding: 0;
 }
 
-header,
+/* header,
 main,
 footer {
   border: 1px solid black;
-}
+} */
 
 ul {
   list-style-type: none;
@@ -25,7 +25,7 @@ a {
 
 .header_home {
   position: relative;
-  margin: auto;
+  margin: 20px auto;
 }
 
 .header_home img {
@@ -33,7 +33,7 @@ a {
   height: 47px;
   position: absolute;
   top: 0;
-  left: 50%;
+  left: 45%;
 }
 
 .topmenu_container {
@@ -77,8 +77,9 @@ a {
   display: none;
 }
 
-.mainmenu1_dropdown, .mainmenu2_dropdown,.mainmenu3_dropdown, .mainmenu4_dropdown, .mainmenu6_dropdown{
+.mainmenu1_dropdown, .mainmenu2_dropdown,.mainmenu3_dropdown, .mainmenu4_dropdown,.mainmenu5_dropdown,.mainmenu6_dropdown{
   display: none;
+  position: relative;
 }
 
 .mainmenu_left a:link, .mainmenu_right a:link{
@@ -86,6 +87,14 @@ a {
 }
 .mainmenu_left a:visited, .mainmenu_right a:visited{
   color: white
+}
+
+.mainmenu_left{
+  display: flex;
+}
+
+.mainmenu_right{
+  display: flex;
 }
 
 .mainmenu_sitemap, .mainmenu_search, .mainmenu_left{
@@ -104,6 +113,200 @@ a {
   margin-right: 100px;
 }
 
-.mainmenu_left{
+.mainmenu_mymenu{
+  margin-left: 20px;
+}
+
+.mainmenu_schedule{
   margin-left: 100px;
+}
+
+.mainmenu1, .mainmenu2, .mainmenu3{
+  margin-right: 100px;
+}
+.mainmenu4, .mainmenu5, .mainmenu6{
+  margin-left: 100px;
+}
+
+.mainmenu1:hover, .mainmenu2:hover,.mainmenu3:hover, .mainmenu4:hover, .mainmenu5:hover, .mainmenu6:hover{
+  display: block;
+  position: absolute;
+  width: 100%;
+  top: 100%;
+}
+
+.footer_container{
+  background-color: #f8f8fa;
+}
+
+.footer-ul{
+  display: flex;
+  font-size: 13px;
+}
+.footer-li{
+  margin-right: 20px;
+  color: gray;
+}
+
+.question_container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border: 1px solid grey;
+  justify-content: center;
+}
+
+.question_container li{
+  float: left;
+  margin: 50px;
+}
+
+.infomenu_container{
+  display: flex;
+  width: 100%;
+  margin-left: 10px;
+  justify-content: center;
+}
+
+.infomenu_container div{
+  color: #351f66;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.infomenu-li{
+  float: left;
+  margin-right: 10px;
+  align-items: center;
+}
+
+.infomenu-li img{
+  width: 170px;
+  width: 170px;
+  border-radius: 10%;
+}
+
+.theater_search{
+  text-align: right;
+}
+.loge_img,.coperation_info{
+  margin-bottom: 50px;
+}
+.loge_img{
+  display: inline-block;
+}
+.coperation_info{
+  font-size: 13px;
+  display: inline-block;
+}
+
+.title{
+  font-size: 30px;
+  margin: 20px 0 ;
+}
+
+.curation_container{
+  display: flex;
+  background-color: #351f66;
+  color: white;
+  justify-content: center;
+}
+
+.curation_info_img img{
+  width: 300px;
+  height: 430px;
+}
+
+.curation_img{
+  display: block;
+  margin-left: 20px;
+}
+
+.curation_img img{
+  width: 170px;
+  height: 204px;
+}
+
+.movie_reserv{
+  display: flex;
+  flex-direction: column;
+}
+
+.movie_reserv_img img{
+  width: 245px;
+  height: 352px;
+}
+
+.filmsociety_text{
+  margin-left: 70px;
+}
+
+.filmsociety_film{
+  font-size: 20px;
+}
+
+.filmsociety_title{
+  font-size: 36px;
+}
+.filmsociety_container p{
+  font-size: 15px;
+}
+.etc_film{
+  display: flex;
+  margin: 50px;
+}
+
+.info_film{
+  display: flex;
+  flex-direction: column;
+  margin: 70px 0;
+}
+
+.boxoffice_container{
+  display: flex;
+  flex-direction: column;
+  background-color: #444;
+  color: white;
+}
+
+.boxoffice_title{
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  margin: 100px 0 0px;
+  align-self: center;
+}
+
+.movie_reserv{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.movie_reserv-article{
+  margin: 50px 20px;
+}
+
+.movie_search-ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 50px 0 100px;
+  background-color: black;
+}
+
+
+.movie_search-li{
+  margin: 30px 150px;
+}
+
+.reserv_btn-div{
+  display: flex;
+}
+
+.reserv_btn-div li{
+  margin: 0 20px;
 }
